@@ -5,6 +5,8 @@ using ShoppyBot.Data;
 using ShoppyBot.Handlers;
 using ShoppyBot.Services;
 
+DotNetEnv.Env.TraversePath().Load();
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog((context, configuration) =>
