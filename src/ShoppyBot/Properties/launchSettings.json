@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ShoppyBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "TELEGRAM_BOT_TOKEN": "",
+        "DATABASE_CONNECTION_STRING": "Host=localhost;Database=shoppybot;Username=postgres;Password=postgres"
+      }
+    }
+  }
+}
